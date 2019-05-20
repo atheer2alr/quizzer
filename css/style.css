@@ -1,0 +1,79 @@
+body{
+font-family: Arial;
+font-size: 15px;
+line-height: 1.6em;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+label{
+     /* عشان الحقول   تكون مرتبه تحت بعض نفس المستوى  */
+    display: inline-block;
+    width: 180px;
+}
+
+input[type="text"]{
+    width: 97%;
+    padding: 4px;
+    border-radius: 5px;  /* حواف الحقل دائريه*/
+    border: 1px #ccc solid;
+
+}
+
+input[type="number"]{
+    width: 60px;
+    padding: 4px;
+    border-radius: 5px;  /* حواف الحقل دائريه*/
+    border: 1px #ccc solid;
+
+}
+.container{
+    width:60%;
+    margin: 0 auto;
+    overflow: auto;
+}
+header{
+    border-bottom: 3px rgb(85, 129, 129) solid;
+}
+.footer{
+    position: relative;
+    bottom:100%;
+    border-top:3px #f4f4f4 solid;
+    text-align: center;
+    padding-top: 10px;
+    background-color:rgb(133, 199, 199)
+}
+
+main{
+    padding-bottom: 20px;
+}
+h1{
+    color: rgb(195, 27, 111)
+}
+h2,.question{
+    color: rgb(76, 155, 40);
+}
+a.start{
+    display: inline-block;
+    color: #666;
+    background:#f4f4f4;
+    border: 1px dotted #ccc;
+    padding:6px 13px;}
+
+
+.current{
+    padding: 10px;
+    background: #f4f4f4;
+    border:1px dotted #ccc;
+    margin: 20px 0 10px 0;
+    }
+@media only screen add(max-width:960px){
+    .container{
+        width:80% ;
+    }
+}
